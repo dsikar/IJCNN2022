@@ -1,0 +1,24 @@
+commit f1ccd2d109073e2b16506a5ed31240ffad92d815
+Merge: 2b01754a c2da7c78
+Author: Jonathan <jonathanm@nippur.us>
+Date:   20211006
+
+    Merge pull request #4063 from zimmy87/fix-4029
+    
+    Fix missing assets in packaged builds
+
+commit c2da7c780fb9a1bcd89001d029dbeb18ba94533f
+Author: zimmy87 <zimmy87@gmail.com>
+Date:   20211006
+
+    Update AirSimAssets.umap
+    
+    add reference to MenuActor inside AirSimAssets map
+
+commit de4594be7dff3f4ca31b23b7601d07a29cd02ccd
+Author: zimmy87 <zimmy87@gmail.com>
+Date:   20211005
+
+    Update DefaultGame.ini
+    
+    add '/AirSim/HUDAssets' to additional directories to always cook in order to ensure dependencies for the weather menu are included in packaged builds
