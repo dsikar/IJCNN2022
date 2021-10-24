@@ -1,0 +1,2796 @@
+commit 3a9b020ecb57a1a1655e441e1675a607ef17ab2d
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210806
+
+    Time scale (#78)
+    
+    * added the circuit launch track !
+    
+    * version bump, fixed some stuff
+    
+    * cleanup
+    
+    * added time scaling -> speeding up the physics
+    
+    * changed realtime times to in-sim time (to match the time-scaler)
+    
+    * removed navmesh stuff in telemetry and fixed fps counter
+    
+    * simplified cte in telemetry
+    
+    * refactored cte
+    
+    * small fix
+
+commit 73470c741082bf53456212780ea4fbda1b5ded37
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210725
+
+    Circuit launch ! (#77)
+    
+    * added the circuit launch track !
+    
+    * version bump, fixed some stuff
+    
+    * cleanup
+
+commit d4cb50d5a66527047dea5ee74ba5693a566b5d25
+Merge: d170277 99c5c86
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210724
+
+    Merge pull request #76 from Maximellerbach/overhead-cam
+    
+    Overhead cam
+
+commit 99c5c861c46b991f4bbfa9b8eca2224610a05346
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210720
+
+    overhead camera now works
+
+commit a4bc04a1875fe67d1b1011ad0ca3e65725f87ad6
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210716
+
+    trying to make it work
+
+commit d170277afa7018a086ce4dbf5d6d8f95867edff5
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210616
+
+    Doc update
+    
+    changed unity version in the doc
+
+commit 32169c25fc972ce4a6d63c7d2f8443963590c3df
+Merge: e102a10 89ab530
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20210610
+
+    Merge pull request #75 from Maximellerbach/host-and-port-arg-fix
+    
+    fixed host and port arg
+
+commit 89ab5302c9bf275579260b10b7a516210d7bb6c2
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210609
+
+    fixed host and port arg
+
+commit e102a100ed103f5ae84973b5afc31db6f9041578
+Merge: 33c91e0 e2d9608
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210609
+
+    Merge pull request #74 from Maximellerbach/cam-rotyz-fix
+    
+    fix for rot z and y
+
+commit e2d9608b9cdf45295b1b629985ab1b153ff35ac9
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210609
+
+    fix for rot z and y
+
+commit 33c91e0f4051b30183f71b01d5713e3fefab6278
+Merge: e9e74ca 68c71b0
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20210604
+
+    Merge pull request #73 from memeQueenPaulaDeen/CameraRotYandZ
+    
+    Camera rot yand z
+
+commit 68c71b04b89ec7f7d4f5196725f74ee864a0dd29
+Merge: bc3f061 9a1c096
+Author: Sami <samiwood96@gmail.com>
+Date:   20210604
+
+    removed texture files from commit
+
+commit bc3f061624ba4560c034432e7688102b0540be2d
+Author: Sami <samiwood96@gmail.com>
+Date:   20210604
+
+    Implemented camera rotation in y and z axis
+
+commit 28dc4d76f994cf6763e54006a818de4e1021dd3c
+Author: Sami <samiwood96@gmail.com>
+Date:   20210604
+
+    Implemented camera rotation in y and z axis
+
+commit 9a1c09699902210ae9f3f5ed4c0241fbd19b617e
+Author: Sami <samiwood96@gmail.com>
+Date:   20210604
+
+    Implemented camera rotation in y and z axis
+
+commit 24ca3921bb0ff241a20415ecf5345a19a77e3799
+Author: Sami <samiwood96@gmail.com>
+Date:   20210603
+
+    complied with new CameraSensor.cs Next will attempt to change to top down view
+
+commit e9e74caa71636f78d36c4b428d7f825de72f94b8
+Merge: f6095c7 f3e5f75
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210601
+
+    Merge pull request #72 from Maximellerbach/next-version
+    
+    Regular update
+
+commit f3e5f75be89ef76374a0234dc6176b955dc65738
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210524
+
+    changed some textures (minor changes)
+
+commit 537dc6a56eac5bbed8de30973fbb6a26cbda3d44
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210429
+
+    reworked light settings (changed gamma mode to linear mode)
+
+commit c7529370ec1fd82dfe2610cbd2ac3014f77c0503
+Merge: 6702d83 413192e
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210429
+
+    Merge remote-tracking branch 'origin/origin/ironcar' into next-version
+
+commit 413192e4dc0d38254e78f3c6d6eac22c49a8eafc
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210429
+
+    updated some lightnings
+
+commit 126698929ad01501abc6b5921a900e32c535416c
+Merge: 46d0ac8 f6095c7
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210429
+
+    Merge remote-tracking branch 'upstream/master' into origin/ironcar
+
+commit f6095c7f92604956de2f3b9c3fdc47d4c78c1205
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20210426
+
+    Update README.md
+
+commit 46d0ac818edb75d616d821e53148d8943569ff7b
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210424
+
+    fixed splitscreen bug when car number > max splitscreen
+
+commit d34f9e92b63a5634399e309968be50e6efa7a23d
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210421
+
+    upgraded to unity 2020.3.4f1
+
+commit a5208bf44d4e68bf5113058ec9239d18addf4114
+Merge: 6fd4fa8 de10586
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210416
+
+    sync with master
+
+commit 6702d83b5fbb799a1eef6cfe482c391e3ce83212
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210416
+
+    changed warren track road texture
+
+commit de10586858227171dcf7e67cd1658b7f9acebcc4
+Merge: e2cd1ce bd40b62
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210416
+
+    Merge pull request #71 from Maximellerbach/next-version
+    
+    Next version !
+
+commit bd40b62c8a425e5529c08d95e9d728c1b704e7c6
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210415
+
+    moved pitch yaw and roll to non-extended telemetry
+
+commit 58d2bd025f58945ce32ec46c31974f8c5e68a012
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210415
+
+    added pitch yaw and roll to the extended telemetry
+
+commit 5aaa78a961e3eb12726f1232fd4a191ed3d68c8c
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210415
+
+    added cone randomization to thunderhill track
+
+commit d26ae986eab5511561cbf13688f920c59d5929d5
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210415
+
+    small adjustements
+
+commit 9fc0b8e04cc7f576bd39bac52b71ee39198e5894
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210415
+
+    changed the look of the warren track road
+
+commit b1082200d4e30bc696a16cae48598f8b0cc4e56b
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210415
+
+    some cleaning
+
+commit 9978715cc79f1f7a3b8002d89e2f782497363b52
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210415
+
+    changed map order in menu
+
+commit 6fd4fa87d0f370e517a1dbffe459b3443d4646b2
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210415
+
+    changed road texture
+
+commit 3ffd4e1d393b880e074bff66b0727830c1bcd1db
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210415
+
+    added a new track
+
+commit 6bc429911e169d264da9b119e8df5d361ee014d9
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210411
+
+    finished thunderhill track
+
+commit 5c90e6ce92898c01d059e7a0ad1c6b696c8d2785
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210410
+
+    fixed starting line not showing up on car camera (layer issues)
+
+commit e8e3aada7c74577021d9827a7188e5d0433e6000
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210405
+
+    added a way to fetch node pos and rot using API
+
+commit 1fb571bfdfcc1c1527efa7bbb14120b5b8f4e24d
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210403
+
+    small fix to the terrain
+
+commit 78b93b70e9ae0daae731b37fa5475e17d8a27e88
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210403
+
+    Added thunderhill track
+
+commit 74f2d0d5916e6eac9afae1837f5809e27f54ac0d
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210314
+
+    added some lidar visualization
+
+commit 32747e6b950e21d148f8e5228bbd7a585590115d
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210306
+
+    fixed weird Lidar behavior and removed xyz coordinates with distance (to have a more realistic data format)
+
+commit ff09233e24d1c7aacbc074345dcea1799b959d5a
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210306
+
+    fixed some stuff
+
+commit 921f766f9955bda9eff68503affce602225b283a
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210224
+
+    some further working on asset bundles
+
+commit d447661eec1d17b711bd01fc9600d1dd764055e4
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210224
+
+    experimenting Asset Bundles to add more "optionnal circuit" => community maps without making their way into official release
+
+commit e19a41157ed5e7fca08c518f19a8fb8e4c4b5d7c
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210223
+
+    cleanup
+
+commit 865033b9228167915ae1bf0227c94ed0bcda4ca5
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210221
+
+    fixed server issue
+
+commit df34eb35c43850b677bdf668e44b0192d18a2663
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210220
+
+    fixed bug regarding lidar and starting line
+
+commit e2cd1cee544f014fbd45f0c43f62efb08c1e2cfb
+Merge: 47ce5a2 2bb7cbb
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210219
+
+    Merge pull request #70 from Maximellerbach/new-map
+    
+    Big change !
+
+commit 2bb7cbb3fcc1eb82f935288d7af385196b163218
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210219
+
+    last bug fixes
+
+commit 0970148539d79c59b363cb796fb4578a7d11a1aa
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210219
+
+    cleanup
+
+commit 6be65762e5f327145980279343fdaa6ea2d14e0a
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210219
+
+    some more cleanup
+
+commit 90a6f43dbc4c0df4502d73297e779bf3d1d2d5a5
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210219
+
+    bug fix and new menu track texture
+
+commit 01f207821b5e655d05747d0bded89dedd64a3385
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210219
+
+    Added Warren Track, still need some work before release
+
+commit c047de4a44877349d3824337f440e487a30c7ecf
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210218
+
+    quick fix
+
+commit 91d699f550c7fde9cb55faeeb8f2908eb6f98bc0
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210217
+
+    updated lightmap and some cleaning
+
+commit 4c3fd3f2098b891e33aaa3224f0beecba3f1d76a
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210216
+
+    made a better Private API with some basic events like crossing line of colliding with penalty cone
+
+commit 88baee9fe85110cf2204478d6de6d4005b774a1b
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210215
+
+    updated some part of the dev doc
+
+commit 67f649400c2659ca12aeb0ed506e71f1e7027c69
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210215
+
+    a bit of cleanup
+
+commit b09333c2fa4aaf3f7ed79f385a818ddfffbe32bb
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210215
+
+    some small bug fix
+
+commit d31410de51cab28a5bf93ebde5fdee6e9bb1442e
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210214
+
+    updated lightnings on rbrl circuit, fixed some bugs related to cameras
+
+commit 9d39d33aa376b7bfbf5e1f56c9d979b4104ff071
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210213
+
+    fixed some contrast issues on rbrl track, added some cameras
+
+commit 60faa8f2b2ea87f4445af5e990544f5f799c3bb8
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210210
+
+    bug fixes
+
+commit a39ebd02d3a109f8895e9aeb2f45f7d7d094c4a1
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210208
+
+    added a private API (in testing)
+
+commit f5689415100b8f31ab58553c9720fcbb9ca5d614
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210208
+
+    minor fixes
+
+commit 5b493e19db18388850571b1567db2fb431bc485d
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210207
+
+    moved some editor code out of the script dir
+
+commit 60bafa686d602ddc853f7d834f705f95ce2ef7fb
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210207
+
+    new track, huge performance improvement
+
+commit f5d68e5e8a0533fb72d8fb81c7832a7bb9b0361f
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210207
+
+    big menu improvements !
+
+commit 49ca6447555ac84454efc579b6526b75d933da5d
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210206
+
+    bug fix
+
+commit 1d74055d48e9f371b58346a230c2432a897710e6
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210206
+
+    added UI scaling
+
+commit 0bee31d968c1a594d186bce705725a4cfa3f2480
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210206
+
+    optimized camera rendering (was rendering twice every car camera)
+
+commit 288e6c3e274a33b7c9306cefb126ea2438d407ae
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210206
+
+    trying to implement back Mountain track
+
+commit 3ce2ee0be1bed1159c6528748c6944d8e6066459
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210206
+
+    doing some further testings, trying to refactor CameraSensor.cs
+
+commit 47ce5a2cc08d53531a578ef6b573151ad943b0da
+Merge: 8c90a0e 091ce63
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210128
+
+    Merge pull request #69 from Maximellerbach/object-scattering-tests
+    
+    Some more refactoring
+
+commit 091ce63f22e5410af85969734fb43f75cd51fa5e
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210128
+
+    improved submeshes management
+
+commit f40ba5d6323a2353edc0f06b771d6dc24b95891d
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210128
+
+    refactored RoadBuilder and pathManager + fixed RepeatObjectAlong script
+
+commit 54886601d46819a8a2edd70078ceb84da66670d3
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210125
+
+    Trying to repeat fences along the RoadPath
+
+commit 8c90a0ecfc188485e6c624702507f27550d06373
+Merge: 5498c73 9e6b4ed
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210125
+
+    Merge pull request #68 from Maximellerbach/object-scattering-tests
+    
+    Object scattering tests
+
+commit 9e6b4ed2f336bb985e075fe6c46f8087dd702b0a
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210124
+
+    small fix
+
+commit 7bb442bdd6536f50bb53baaa781c766bf5f80954
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210124
+
+    cleanup
+
+commit a73ab840e546ae05965d7e4b1644cd8996dcdfe6
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210124
+
+    improved cross track error with detection of unlapping
+
+commit b89f921ddad656e6a209dcf0141a8cd1d96b716c
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210124
+
+    refactored challenges, moved cones in warehouse
+
+commit ed9a02824bab1fa0884d9a1c7ebc9480cd150d7c
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210123
+
+    fixed some Span issues, added some reset buttons for challenges, made some more testing with object scattering
+
+commit 5498c73c1afe224a1899cc0d6253ff92cd5f89a0
+Merge: 9f8a98c 3ebe58b
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210120
+
+    Merge pull request #67 from Maximellerbach/new-car-models
+    
+    New car models !
+
+commit 3ebe58b78d3669297b8eca78239fb8f17cf67699
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210120
+
+    some new challenges ! (not applied)
+
+commit de5360cd0b565e4375a7fefa963863ed8c14afce
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210116
+
+    added a way to save the generated road mesh
+
+commit 77150756c1d99d95ec52414dde5d37b2ab576f6b
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210116
+
+    removed .vscode
+
+commit 19760636d8a96a42e8b9560b3caa90a690ab615f
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210116
+
+    some code refactoring, added PathCreator and path manager for PathCreator
+
+commit e6d9af1a1f69c45f25b87ed2f071cdd1846dc113
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210109
+
+    refactored editor looking of PathManager
+
+commit 4df10baae278ecdde22a8b44bdb734b557fe845c
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210109
+
+    cleanup
+
+commit 65d0b27e831477e97fc24f8c468374923fd8d7ac
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210109
+
+    added some car models !
+
+commit 9f8a98c4d46dbd3270cbf29a0aebcf5b89560c73
+Merge: 49ad28f 8881c71
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210109
+
+    Merge pull request #66 from Maximellerbach/more-doc
+    
+    Regular Update
+
+commit 8881c714ce7226da01c48efc2904aeb2cdcf82d4
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210107
+
+    avoided some array to list casting
+
+commit 05099dc248355adc16706cc284ee08029cfc69c6
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210107
+
+    removed road mip maps
+
+commit ab79c98a49b2875a96b406ac0c4ddf0fa9079664
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210107
+
+    quick fix on the doc
+
+commit e43c2f155ec8404c15d035c582c3da9b4ca6e0b6
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210107
+
+    some linting and refactoring of path smoothing
+
+commit 4971629a529c1ff018e83b3aeaf7b17c6209f6b9
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20210104
+
+    some more
+
+commit 6e714b291d4927fcd8a2d54764f4695ffa6b8545
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201228
+
+    some doc
+
+commit 49ad28fc67abe65099b2d7d37f7b1dc558694f4f
+Merge: cc417f7 3f70d3a
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201209
+
+    Merge pull request #65 from Maximellerbach/doc
+    
+    Regular update
+
+commit 3f70d3a50a0b48a10401701028ea9a8f79fef370
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201206
+
+    cleanup for the PR
+
+commit 57c1163cdbe6736d486ebd95a2d0c012fea04dc1
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201206
+
+    changed the body styles system
+
+commit d1547d359620f0d7855f575a7ca217239ae8edbf
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201202
+
+    made a bit of documentation
+
+commit cc417f704569d45fe1233e54b85528ebf33ccfef
+Merge: ed0cc0b 7a2f0ad
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201117
+
+    Merge pull request #64 from Maximellerbach/adjustments-for-next-race
+    
+    ajustements for next race
+
+commit 7a2f0adae6d3d8e4e6ac00e656fe5109a2bcfe87
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201117
+
+    version bump
+
+commit 3e6b9941982ba393c38244403c2ddfb64e70f13a
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201117
+
+    added a starting line to warehouse and cleaned some stuff
+
+commit 7ab965540687b402450a9630aeacdec963ec3784
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201116
+
+    small changes on starting lines
+
+commit 33417d34f6b029c3654b732047499ecd16a39d70
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201116
+
+    fixed spawning rotation/orientation
+
+commit b5bbd5e7e70fc872484a8884124ae70eeaa68765
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201115
+
+    moved track points  into "Assets/Resources/Track"
+
+commit 8a2f6318af6d8e31c78278bdc795db3e56cebff0
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201115
+
+    further menu automation + creating a new map
+
+commit ed0cc0bb3f9e391d009bcf3df9f65778cac051ac
+Merge: 40ecd68 816fcb3
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20201113
+
+    Merge pull request #61 from btrinite/fix_extract_last_json
+    
+    More robust JSON extraction, processing only last one received to preserve perf
+
+commit f3b323de59c21778ccb33f64a04fe665875f7c5a
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201113
+
+    trying to automate buttons
+
+commit 40ecd6895b40611cdf4bfaee6393f6b82d09283e
+Merge: f756b4e c8a6ddb
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201113
+
+    Merge pull request #63 from Maximellerbach/version-bump
+    
+    version bump
+
+commit c8a6ddb487ea7c3c162cfbe20ca4a4a25a7da5d4
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201113
+
+    version bump
+
+commit f756b4eac085a765467e92c22f93ae7fccd95f33
+Merge: 336faec 8e2f8f7
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201113
+
+    Merge pull request #62 from Maximellerbach/cleanup
+    
+    Regular update !
+
+commit 8e2f8f76025fe7c04441022c7c4f7e711aee68df
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201112
+
+    finished splitscreen algorithm and logic, we are now able to see 4 car at the same time
+
+commit 816fcb38f44030848a6d90a5c58ec5e75fbce43b
+Author: Benoit TRINITE <btrinite@free.fr>
+Date:   20201112
+
+    process all messages
+
+commit 336faecefa073dbce1c25b14ac83694de5357366
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20201110
+
+    don't set vsync - which then takes cues from app setting which sets 60 fps target
+
+commit eb76578a2154fe40806c336f0722dfd314a71c0d
+Author: Benoit TRINITE <btrinite@free.fr>
+Date:   20201110
+
+    More robust JSON extraction, processing only last one received ro preserve perf.
+
+commit a87d31542e0f2152bf5fc5928d17b247f96bc29b
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201109
+
+    some of the new splitscreen + some UI updates
+
+commit e04c8ba21464e3155edd2fa94ad538311f175010
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201107
+
+    fixed spawning issues with car.StartPos instead of go.transform
+
+commit b05d9e7785ad4c4a951109f8716cc57640630c4d
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201107
+
+    updated lap timer
+
+commit f5f92bb6585b70936a3405c398677e40168df06f
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201105
+
+    menu refactory
+
+commit ccb18082eae55a58311aa9fc0377d99c94e7ec4e
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201104
+
+    updated texture for collider cone
+
+commit eb9c4a37dcb0a7f9588b580ce741d2bbbfeae639
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201103
+
+    fixed second camera clipping
+
+commit c977901c1fa0de23fc5266ce1562247d07f3a58a
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201030
+
+    update
+
+commit 2d4153e5e577ace4a2a153ea95fd9f16475a8b1f
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201030
+
+    big cleanup
+
+commit 69d66f6a0e719a517c2370bc80d697b621d1de28
+Merge: 1ce8ea9 58e944d
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201029
+
+    Merge pull request #60 from Maximellerbach/cone-challenge
+    
+    hot fix
+
+commit 58e944d940ab341d0dbc3130de4b638ec1547b51
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201029
+
+    hot fix
+
+commit 1ce8ea9d5a071a2e050412f39196cd34ab0ff54f
+Merge: d24b567 bacfcaa
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201028
+
+    Merge pull request #59 from Maximellerbach/cone-challenge
+    
+    some fixes and last minute changes before compiling the new version
+
+commit bacfcaab7b993a32e5c724ece828f2faf75ae7fc
+Merge: 396e546 d24b567
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201028
+
+    Merge remote-tracking branch 'upstream/master' into cone-challenge
+
+commit 396e5466b61aa35e1cbff2599c01504aeef3fe50
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201028
+
+    new merge attempt
+
+commit f224f1d51679bf53b6f4f971e3bff3fa18208d12
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201028
+
+    updated clipping range of the cameras
+
+commit 62ce0eddf076c81cfd0f45894365eb7ba3008dc6
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201028
+
+    last minute changes
+
+commit d24b567f145d9c341121ef9fd2b5fbc048c0a8f3
+Merge: 3218d7e 06f32ec
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201028
+
+    Merge pull request #58 from Maximellerbach/cone-challenge
+    
+    new version of the sim for the November Race
+
+commit 06f32ec9578a15295e14882f9ba4632cbb640b17
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201028
+
+    disabled cone challenge
+
+commit 884475ef32ace0e4ab33a87a85a1db42239ca48a
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201027
+
+    last bug fix and updated the release date in the menu !
+
+commit ff61eb9f28a2fcce85dbb03145095b7b73272bda
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201027
+
+    updated lightmaps
+
+commit afb550f5decb66a91b2431cefa7160b2c053500d
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201025
+
+    cleanup
+
+commit 26ea763aed15ad2cc526b0a7e80f977e972e8840
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201025
+
+    2 starting line on roboracingleague track
+
+commit bc00a2fa187c6206777488244f3ec1e3620a2ec4
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201022
+
+    cleanup and small fixes
+
+commit 77f611677410233f8ea11bc8261e58afc52ac9fd
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201020
+
+    added centerNodes to path object
+
+commit 3218d7e9134b63a4a9ee4666f5cf05876b6cf0d3
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20201017
+
+    added lidar, camb to donkey prefab
+
+commit 3762cf997ac8923d0b4d10a2f323cfa942eb12f2
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201016
+
+    a bit of cleanup
+
+commit 74ad632c5874033f57bca8d46d3d9f04d60ed640
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201015
+
+    changed requirements.txt
+
+commit 3a448e4b5e644c970b9f098ba22f0e3b8dd08633
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201015
+
+    added a camera config interface with tkinter
+
+commit eceff5e142aa26864340d9a7a73dd4a70e6ae45f
+Merge: dc4a6b4 c913271
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20201015
+
+    Merge pull request #57 from Maximellerbach/random-cone
+    
+    Challenges and Timer
+
+commit c913271c309e88187359b09bb17b5405ab44a764
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201015
+
+    timer, challenges and grid refactoring
+
+commit dc4a6b4dcb9975945347fd08546329eb91569946
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20201015
+
+    added lidar and 2nd camera support
+
+commit c6925554c646e89d62f07f23f89e8c34a800896b
+Merge: 041ffea 24805ee
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20201011
+
+    Merge pull request #53 from kpascual/velocity-acceleration-local
+    
+    velocity and acceleration with respect to local, rather than world co…
+
+commit c905c1f97951047f7169901f1a02d20bddb5711a
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201008
+
+    added the basics, need some bug fixes
+
+commit 041ffea5eaa8a5b8e0c0c34115ca3827e5e5e745
+Merge: baf9c76 afa172f
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201004
+
+    Merge pull request #55 from Maximellerbach/scene-template
+    
+    Scene template
+
+commit afa172f384eeee02cab4654417126437ed0232aa
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201003
+
+    forgot to commit something..
+
+commit d138d648c8821d68c09f5431a1743ae754000e28
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20201003
+
+    fixed some lights
+
+commit 5d20419744dc7cf392500e51fba0f99ee120b23d
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20200927
+
+    updated light maps
+
+commit 518eec78cedf24b7bc73bacb287e23e27f5be614
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20200927
+
+    some tweaks
+
+commit d746c25274b88e41becc1c613550bef73678c5d2
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20200927
+
+    moved some circuit to scene prefab
+
+commit 5373ab291a442cd210c7a769a379ee6e5a236a77
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20200920
+
+    added scene prefab
+
+commit 24805ee41f04bfa73c05d7cf7fe159e8e8195c72
+Author: KP <vorped@gmail.com>
+Date:   20200916
+
+    velocity and acceleration with respect to local, rather than world coordinates
+
+commit 9bf3ed1df2248fa3380b671409d90d1df7c57d5b
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20200915
+
+    starting some cleanup
+
+commit baf9c7669f095a40694dd5650958dee6e0d8ca25
+Merge: 08a9b17 c375348
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200914
+
+    Merge pull request #52 from Maximellerbach/cristallin-track
+    
+    roboracingleague track
+
+commit c3753482ee6d4122e72f0d1955d1a947d1e927b9
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20200914
+
+    cleanup
+
+commit d3cc07b0c585edd82d5a07592c5c3c140030d6d6
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20200914
+
+    scene refactoring, bug fix, bump version
+
+commit 06b163941375b258f30e9f0ca241f49aaf09b286
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20200912
+
+    quick change
+
+commit a441dbcb8b0330489fc83b5293683dbd72c79464
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20200912
+
+    fixed some stuff + renamed track
+
+commit 627336949ed68d1d521a8bea212361352457a56f
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20200912
+
+    added paths and new cones
+
+commit 0c501ea5a1a35e27920f3e950aadd846807ebcfb
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20200911
+
+    new virtual circuit
+
+commit 08a9b17f90a305fde8f62b3c62c1a455d11fb0a4
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200909
+
+    bump version
+
+commit 882f94259b9cf08b0c4e32733ca0412d21b8198c
+Merge: 9e6cf6d 7f4b6c3
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200909
+
+    Merge pull request #51 from Maximellerbach/warehouse-floor-fix
+    
+    Warehouse floor fix
+
+commit 7f4b6c36c7b256e49f55080c8865e26dc1cf03db
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20200909
+
+    consistency in gitignore
+
+commit f2af47985c1b854dc186803036948a7532a967f5
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20200909
+
+    fixed floor texture
+
+commit 772062753059c2fd42a74b724ddb4817a4df011d
+Author: Maxime Ellerbach <maxime@ellerbach.net>
+Date:   20200909
+
+    updated gitignore
+
+commit 9e6cf6de23aa71d584b28165b2bc696dffc3329c
+Merge: 0d798af fa5479b
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200831
+
+    Merge pull request #50 from tawnkramer/basics
+    
+    back to basics
+
+commit fa5479ba2cb59c760ce2c559ea5363033294b7d6
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200831
+
+    back to basics
+
+commit 0d798afccefe98350bb6c0600b50496dc8c76179
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200824
+
+    handle null case
+
+commit 007aa6832422424c61b71205aed21c6bb51338e7
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200824
+
+    add guid
+
+commit beb9e5c21958c3cf9b35bf03f9eb8ad572880763
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200817
+
+    fixed start line, bump version
+
+commit 7c88596a3fd8ffe32d11074ab1ff661d24602152
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200817
+
+    added lidar and second camera support
+
+commit 179888b61c6cca7e0e6d63d693f10efa3d7ca98f
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200812
+
+    fix lost mesh colliders on track edge
+
+commit 8470917c80c921abb238fc331bc01e75002d1fe7
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200809
+
+    remove finish line, all checkpoints now. work progressively
+
+commit 5ea245bbbf76ec2649bbdead158db7f3fcbcbfe7
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200809
+
+    added mountain road maya ascii
+
+commit 26eaba73d2265b210340574c1b795c8da2d61050
+Merge: ab077d6 673b13a
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200809
+
+    Merge pull request #48 from helios57/master
+    
+    Fix bug in shortest path calculation
+
+commit 673b13af5e4f61253d6496bce0558c6c90bd81d7
+Author: Luc Baumann <helios157@gmail.com>
+Date:   20200809
+
+    Fix bug in shortest path calculation
+
+commit ab077d6acd7d61437f588fda6455c53676230dd2
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200807
+
+    bump version
+
+commit 30522288dd02bdc322ddc567da0e7a236060a60c
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200807
+
+    fix spelling
+
+commit a905f0c2bc0e9f9d2f2570eac2bb973aa420c44c
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200807
+
+    larger time text. fixed mispelling.
+
+commit 3c9d461e08350936e6ac6f1b907a47f7264d562d
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200807
+
+    handle drop competitor
+
+commit e0552480646c262b67639946e1bc0710e88808b6
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200804
+
+    handle ff in race flow. handle stop race by DQ all.
+
+commit 9abc3a365afda44b08a303a69a7757671ab3f46b
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200803
+
+    don't add competitors after the qualifying state. And keep qual state open for duration for late showers
+
+commit c912a3c06b3f77589ce34cefe29dc4bc709f3453
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200803
+
+    fix ladder time ui refresh on load race state
+
+commit 61ae8a5489643e61ccf1b8255fef39acb08ba712
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200803
+
+    fix race result when both DQ but one finishes lap
+
+commit 7d9de2c79106e2055fc44a00c6406fa6a1e3ffa8
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200803
+
+    fix double DQ end of stage restart bug
+
+commit 524ecefb416487a6a26474e98873f2d037b00559
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200802
+
+    focus on dq testing
+
+commit b27a7fc2073686c58f3291b294be67e726f2a182
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200801
+
+    better save and resume
+
+commit 4ec904bd9159896501a640395d5977a90ae876fe
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200728
+
+    handle missed checkpoints better
+
+commit 458a52d7a815d35f0b861a45d89e37564960ca5b
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200727
+
+    fixing ff, adding menu
+
+commit 94b77024e1c0568f7a4359626bc4481c4744a96a
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200727
+
+    remove old lighting
+
+commit 8786bca412865391385b83748323dcc8d5a7439c
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200727
+
+    lighting for mountain track
+
+commit c0118fd7a52a865dba6d1bc50568c5dcfabf716f
+Merge: 1ff1b6d e27a2a7
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200724
+
+    Merge pull request #46 from tawnkramer/auto_race
+    
+    Auto race
+
+commit e27a2a74ea911ae83a3ec64dca38ffc1f13ace9a
+Merge: b3db3d1 d8cc47c
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200704
+
+    Merge pull request #44 from helios57/auto_race
+    
+    add NavMesh and progress on shortes path to telemetry
+
+commit d8cc47c24d3a73014e3a24c6fa489c2b4da425a7
+Author: Luc Baumann <helios157@gmail.com>
+Date:   20200703
+
+    add NavMesh and progress on shortes path to telemetry
+    
+    reformated CarPath and TcpCarHandler, they were inconsistent with tab and spaces, now all inteded with 2 spaces
+
+commit b3db3d1fb551c17a62d558489f3ef28648b21ea9
+Merge: 31f3399 b4d3d58
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200622
+
+    Merge pull request #43 from helios57/auto_race
+    
+    Add imu (accel/gyro) to telemetry
+
+commit b4d3d581ac10635e241810db301f3870ab824fbb
+Author: Luc Baumann <helios157@gmail.com>
+Date:   20200623
+
+    Add imu (accel/gyro) to telemetry
+
+commit 31f3399389602794ec1bc1951bb971472737462d
+Merge: e2fee02 af8192c
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200616
+
+    Merge pull request #42 from Jekyll555/feature/reset_actions_in_reset_car
+    
+    Improve car respawning for RL learning
+
+commit af8192ce68ed99565924364e02cfa3c57c382445
+Author: Jekyll <b.eickhoff@gmx.de>
+Date:   20200613
+
+    reseting last remote control (RL actions) requests with 'bResetCar'
+    
+    in case of RL learning this helped to _not_ let the car start without proper initialzed algo client
+
+commit e2fee02d65df0790efa1ca80ae790ec7b5d6a36b
+Merge: 51add07 eaa4ea5
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200607
+
+    Merge branch 'long_road_prv' into auto_race
+
+commit eaa4ea5b87dbe5471fc2a56b53ac05d8014303b4
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200607
+
+    save/load race state. skip/rewind/pause race states
+
+commit 51add070258adace598b6cdc1a1278633f69d8d7
+Merge: 8ac8ad8 a9c8725
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200606
+
+    Merge branch 'long_road_prv' into auto_race
+
+commit a9c8725c5267f24e30adf2ba205e58f9b24f5563
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200606
+
+    race restarts w limit, checkpoint timer per car
+
+commit 8ac8ad87b48248acf679e343499f9f49d9df9604
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200606
+
+    cleanup for sharing
+
+commit 735c42a25d1aca31f302fdb694e90d10562c483f
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200606
+
+    add checkpoint material
+
+commit a61a5248929571c951cea65030c5039d9aa1c084
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200606
+
+    handle odd number of competitors
+
+commit f0fdd2e0e54ed695f5b065f686f5678ecf4d528c
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200606
+
+    moved start line. fixed late qualifiers
+
+commit c094c1de2c31fb91369af18e7693cdcd66d77c4f
+Merge: 37d978e ae09d08
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200606
+
+    Merge branch 'auto_race' into long_road_prv
+
+commit ae09d0805eefe391b215c2c2d8ce97adae9c8b52
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200531
+
+    test_client updated to work w auto_race
+
+commit 8ff464ab7488a108a85d3cc60e186b86cfc5bd63
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200531
+
+    disable video players
+
+commit 37d978edd3e3b67e51343598d6852032d5bc1da1
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200528
+
+    prefab of all town paid assets
+
+commit 164c73f33647c20763a1e136ce8d60910dd7328d
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200528
+
+    remove paid assets
+
+commit 7a0f7f9013c02cd2e8583863e56ed1cedad85c81
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200528
+
+    wait for competitors to connect to start race
+
+commit 2c296c2558193a8b81ba07bbc5753bb8ae5f4abb
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200523
+
+    working auto race
+
+commit 64d5404c2ac3df1dd1fc897dd865bc68081ff271
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200523
+
+    added checkpoints
+
+commit f3f9c11770603d122140f6079d6041c609f96c48
+Merge: 4dd6086 207ee97
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200523
+
+    merged auto_race
+
+commit 207ee97d813cf5237ef3d7162c9825b09a1f36bc
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200523
+
+    better racer precence flow. users only added once full config available.
+
+commit 9e9bbbf8d639f9ea6e0fc1f5eb8dca8cf184e8a6
+Merge: b055c52 33e4175
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200517
+
+    Merge pull request #41 from helios57/auto_race
+    
+    add additional telemetry for RL
+
+commit 33e4175c87ebb60aafd058037228d06f2a403bef
+Author: Luc Baumann <helios157@gmail.com>
+Date:   20200517
+
+    add additional telemetry for RL
+
+commit 4dd608602234da5a48ec271469a9b51ee406ecb7
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200516
+
+    steering range 25 deg now
+
+commit be77d18a25bcbf007ab64e886e055e37432aa745
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200516
+
+    handle spawn spacing better in mountain
+
+commit 0efc3c5ad3d9366123c47a11f456685e4459e2c3
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200516
+
+    re-do terrain
+
+commit 8fa527f43df88f30fb9042b2814d87d9598b2d04
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200516
+
+    added flags
+
+commit b055c52a153c4ab96bdbbe00faaf08b6ddf8aff3
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200516
+
+    add racer bio panel
+
+commit 3966def5a7d658b69edec0c98428217bba8cf322
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200515
+
+    fix race qual order
+
+commit 46b5707aa0270ad9b2f93f01715c1563ae9f6e8c
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200512
+
+    final race ladder
+
+commit c4ba4e824ebc17f2e8744218b828e4c9c9d451e6
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200512
+
+    checkpoints added
+
+commit d0d558672dde78a14b03e09b9ccd634c34365aa4
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200511
+
+    pre-race, stage 1 mostly done
+
+commit 953cb457cff4f5654950590d080288edd1e61f6a
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200509
+
+    wip on auto race. Practice and Qualifier
+
+commit dae0d9f4e82a5b3bafb0937d58777e3520694831
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200509
+
+    changes
+
+commit 4cd54b28829e8cfcdd9dbf293dad18c5c80950a7
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200509
+
+    wip on auto race management
+
+commit 9e16e8a7df355d0dbc8e9e89615645d793677bc1
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200505
+
+    added Town Creator assets
+
+commit e756efe305901c4b184c1b89fe933410b500b439
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200505
+
+    racing cameras, car tweaks
+
+commit 9cfb7ef577cec021997006607986df26d18635b7
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200503
+
+    added new track
+
+commit 1ff1b6d43034f0815c90ae1205db3ae35c1392a3
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200424
+
+    fix cam switcher;added heat to race sumry
+
+commit f8df0d58f7f09af0212e8219b6b06b8e1158ed17
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200423
+
+    handle write errors
+
+commit 9b6c5f5456e04e9e5f6c1035f1a68b6d18ddc65b
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200423
+
+    race heat summary written to log dir
+
+commit c93e52ffd8b380c0cf1c74774a6b5b9799cd14e6
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200418
+
+    moved race scripts to a folder
+
+commit 6f1e2ea6492097be552f2a0b1e2077ad261b0c87
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200418
+
+    add race controls to a panel
+
+commit d0f60926cc7eda9095490fd3ab2e0474ec3c4503
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200416
+
+    race cam switcher
+
+commit b0a639a6ab90fdc935b74fb40c19649f757f5c03
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200416
+
+    added race summary
+
+commit 806d6bb1325a787d9c8f866ca58da2a57668e313
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200415
+
+    clamp inputs
+
+commit b8eab5985899667198c2c7c74dc3ff87cdcc9920
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200413
+
+    add racer status, racer ban
+
+commit 65220342ece301e92b04a7162c5ac8cc8e7012db
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200410
+
+    added race camera switcher. terrain
+
+commit 3d5fd498541b160f645570ce9fb0852b4bf676ca
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200410
+
+    center race banner text
+
+commit 6f17cedc1889f4fde3123624032514b195811ef7
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200409
+
+    remove test code
+
+commit c2c2541fc21886bdc2b294a7ef48b7ec1fce42a6
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200409
+
+    simple race mechanic w lap timer, best timer
+
+commit 7a4626bb9d495cd0283086b6759fb3f101190d38
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200409
+
+    wip race manager
+
+commit 8bff953f87409d854d1f9be3d692136d98d4bc27
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200409
+
+    fixed warehouse floor render layer
+
+commit e48aec46bc10d21524965a22403d53692b44ea52
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200409
+
+    fix float parsing
+
+commit 617501b2ac796076785ebc21587431984f875a41
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200406
+
+    fixed GUI errors by removing flare layer
+
+commit cca616f7dc872c1358c82a85f6e02ac63ef03a36
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200406
+
+    added pandemic banner
+
+commit fecf2f64c11a82f9b088ccbf0f734dfd6d8dea3c
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200406
+
+    version 20.4
+
+commit 1f3e3a10c97ebd61e36eaa40703ff1ae1a6c2bf9
+Merge: e9bbeb4 f283672
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200406
+
+    Merge branch 'master' into tcpserver
+
+commit e9bbeb4a38034e5a645ebcbdd699bac7743fed2f
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200404
+
+    added camera config
+
+commit cd000cbdc5a4ba3fcf8c0a063f174d47240478c7
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200403
+
+    improved test client
+
+commit f4e6c7b2df34a327394cfe054308298767fdb52f
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200403
+
+    added new body type, and configurator
+
+commit 1d87a3d0ee76ea9f91614055af281f943e88c67c
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20200401
+
+    fix donkey prefab.
+
+commit 5a1c63c3541ce71efe48d0497a59d6e50b32a1ff
+Merge: e5ae78b 4599ce4
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191211
+
+    Merge branch 'tcpserver' of github.com:tawnkramer/sdsandbox into tcpserver
+
+commit 4599ce4d4fb85bf016821d428fb7299e81034493
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191210
+
+    add tag; wip improve model
+
+commit 0c1e49c47162bd5148526bf0118d4810e33b841c
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191210
+
+    remove donkeycar reference
+
+commit 55e2d8fa7ae7db79faca080ce7c87567fd6168c6
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191210
+
+    crlf=>lf
+
+commit b117d52ef7ba3fc05e9180c1db43819042b27eb9
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191210
+
+    make sure one car when network control finished
+
+commit e7d570695b89ebdce2bbafb27f670da095de69d9
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191210
+
+    remove car when starting manual NN control
+
+commit e5ae78b6c5138933ab492e9800870aaa214bdfbb
+Merge: 963020d 4ca39d1
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191209
+
+    Merge branch 'tcpserver' of github.com:tawnkramer/sdsandbox into tcpserver
+
+commit 4ca39d13a0d8fba1961829c51420e9c6cf51f7fb
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191209
+
+    removed aug
+
+commit 6b4b5674088de39318585a96fbfe53eea5f669e0
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191209
+
+    tcp client working
+
+commit 93bd57d8fc9059841eb77a289e237bb78b9eef14
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191118
+
+    more comments for JsonTcpClient
+
+commit 963020d6802186996550f5c9e0f0fbf7d61a412e
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191116
+
+    adjust start point
+
+commit f671e0a6741ec68aac9577b4a0dca4b4c4815679
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191115
+
+    cleanup
+
+commit 80555d60bf474f074ec1fafa2bf93aef145915aa
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191115
+
+    better dropped detection
+
+commit 8a342e82452d3f2a6567cf16257ead305ff5a259
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191114
+
+    set client non blocking
+
+commit 69107d06b8035c5f9b963e4d9ecc3d6ffca7c5bf
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191114
+
+    developed tcp client a little more
+
+commit 65ffba83d545a0c40c9664870e9cdaa18d7f25d5
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191113
+
+    removed socketio, new lighting, network fixes
+
+commit e00a73703ef25c671dabcd755055973ff23dd3ad
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191113
+
+    project upgraded 2019.2.12f1
+
+commit 25b49af12b0a2b7fd4a54e88473c6be4a7d41083
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191113
+
+    loading from one scene to another maintaining server and connections
+
+commit f6906e048a1d548339954f6f0795746a376a8151
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191113
+
+    working TcpServer/Clients within Unity
+
+commit 90ef237de5aeca0d51d9864b753764640c69ed69
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20191112
+
+    add tcpserver wip, updated unity
+
+commit bf8010d5b38f18ab3bff6a81af4bb9b0d1818720
+Merge: 045347f a0d6bfd
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20190716
+
+    Merge pull request #30 from MrMonk3y/patch-1
+    
+    fix ssh bug in requirements
+
+commit a0d6bfd63b0478537e976a5486290e5fd38cb916
+Author: Sascha Jecklin <jecklin94@gmail.com>
+Date:   20190716
+
+    fix ssh bug in requirements
+    
+    https://github.com/desktop/desktop/issues/4479
+
+commit 045347f4bc4d3ce4b5131a44c2b8e0046d3b665a
+Merge: cb06b62 1588cd9
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20190609
+
+    Merge pull request #27 from araffin/fix/parseFloat
+    
+    Fix parse float for non english languages
+
+commit 1588cd9fd6e6d200bab0c3913733ab90426ce2b7
+Author: Antonin RAFFIN <antonin.raffin@ensta.org>
+Date:   20190609
+
+    Fix parse float for non english languages
+
+commit cb06b629bf2d569ae8fa3d5d555ee6c2d31c42c8
+Merge: 5a0d13d 6f754a5
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20190428
+
+    Merge pull request #23 from tleyden/patch-1
+    
+    Fix missing --model argument in README
+
+commit 6f754a57d1027acdb67b40af0799b68670595c9e
+Author: Traun Leyden <traun.leyden@gmail.com>
+Date:   20190428
+
+    Fix missing --model argument in README
+
+commit f28367213bc1b6c490cd968584e2c0cf81162a03
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20190228
+
+    need tags
+
+commit 0cf0752ebc47c794c52ff348b5281a387d77ee06
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20190228
+
+    remove generated assets from rev control
+
+commit 620b0c43e3bdc866c9b120ed822619dd5edf0be6
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20190228
+
+    add file browser for log path
+
+commit 5a0d13d9df04776b9065bff2fde2c85901eeadd6
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20190228
+
+    fix min drawer. version update
+
+commit 20dad412f1db49a80d169be71e104265ae73dafb
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20190228
+
+    new model. lots of updates
+
+commit 6b539167062bc6b9ee028a5ec9715d3f02b7921b
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20190228
+
+    remove websocket from unity project. added tcp
+
+commit 1d2a2d77a57bb394796b0477ad52372425afba0a
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20190131
+
+    add api regen_road to set road style, curviness, and random seed
+
+commit 575cd70f7a0d55cb8b65a3c52c7a5ddfc79fb949
+Merge: 398c776 4c1a244
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20190117
+
+    Merge branch 'donkey' of github.com:tawnkramer/sdsandbox into donkey
+
+commit 398c776c82efd0bc136a377ed74fc0345325ad4e
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20190117
+
+    ok, hacks to handle N spawned cars
+
+commit 4c1a24419dd8607dd4087c426e4b9ed294b024fa
+Merge: 00ec8b9 bc3faf2
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20190117
+
+    Merge pull request #14 from araffin/update-instructions
+    
+    Update requirements
+
+commit 00ec8b9bf79d7c8d2587cd3f09b87b0c14d96d5e
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20190117
+
+    two cars with split screen
+
+commit bc3faf2a7d988d594f343e463a9796d066abbd8c
+Author: Antonin RAFFIN <antonin.raffin@ensta.org>
+Date:   20181209
+
+    Update requirements
+
+commit 9bcd3e017801eda619e9aeae8e65b4fa466bfbf0
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20181206
+
+    update unity scene to newest version
+
+commit da6c8a3d942a3cec222fde1f942c9949ba0ae707
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20181023
+
+    enabled motion blur effect on donkey camera
+
+commit e534b6ad692a45493697e894cd7649e9968314d5
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20181020
+
+    moved donkey_gym to sep repo github/tawnkramer/donkey_gym
+
+commit 4c5609747268b5d6fde3b02bda1ee72e93e6bb2e
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20181014
+
+    cnn better policy
+
+commit 64b3d13dfd1cb609445f984f9c0739dbc8766ec8
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20181014
+
+    multi-processing baselines working
+
+commit c772325951abd7a14648e7830cabb65051e24cea
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20181013
+
+    fix action space, junk imports, and added baseline ppo2 rl test
+
+commit d324130e9464fda953d13ff636234bb5ecfd17c2
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20181013
+
+    added throttle out tweaker
+
+commit 6e790d7354851d46acf9ee4cf43f84b0dee26f12
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20181013
+
+    fix training with donkey data format
+
+commit 2a8ac5de8f160ba7bcaf24a23565a14d2afd671d
+Merge: 43c3411 72a7ba3
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20181009
+
+    Merge pull request #10 from whllhw/donkey
+    
+    replace keras by tensorflow.keras
+
+commit 72a7ba372bd1d7d643a14d1c323e5d95bb90cfb4
+Author: lhw <990230292@qq.com>
+Date:   20181009
+
+    replace keras by tensorflow.keras (to fix TypeError)
+
+commit 6f6c891739e3e8bb0f983344c56ebe0c9c0c27bf
+Author: lhw <990230292@qq.com>
+Date:   20181008
+
+    add gitignore
+
+commit 43c3411c4b2b930ea5aa309b8d0429f273229692
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20181007
+
+    wait for new obs.wait after reset
+
+commit b63f72668f4a8fd5fd1423ca14baa8459a04f5f6
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20181002
+
+    sample rate at 60 fps
+
+commit 6ed1859ce115c59ebfafea0f4797a789849fa8e0
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20181001
+
+    tidying up
+
+commit 96a9fdea043d6a5dbcf092d165a8e9c9478a08c3
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20181001
+
+    donkey gym working w tcp
+
+commit bfc9d4a3a05e098ddaebc3d2c7666e9d586f85e0
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20181001
+
+    more auto linking to support spawnable donkeycar
+
+commit 8b622e46dbcfaa847d76e97769f8588fe5dbb8d4
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180930
+
+    wip on spawnable donkey
+
+commit db2d7b4ca0d76f45e20e683fab0950465ff0a6c8
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180930
+
+    more work on tcp connection. added dialog to browse for log dir.
+
+commit 1294f7f391189f759b0160d6dba0ffb7c916fe30
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180930
+
+    refactoring tcp io
+
+commit c506e714c300984e2f9495ae28e140272b612939
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180929
+
+    back to tcp, wip. add track loc
+
+commit 23fccefe5b4ba93f6cb6e7a2cbedcc714c71d74c
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180921
+
+    added generated track
+
+commit fdc12ff45e46db72e54fe24ed86d876d6c8898fd
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180921
+
+    working on windows
+
+commit 68ea084244f575a4347d5d0c4303ba96ae99d188
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180921
+
+    some debugging
+
+commit d85a7b4d81049fce0c1eeba3d5cfe638f8bbd55f
+Merge: bf309dc 09b416e
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180921
+
+    Merge branch 'donkey' of github.com:tawnkramer/sdsandbox into donkey
+
+commit bf309dc9dc82048da62304f855d570fb21eef90b
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180921
+
+    fix screen capture
+
+commit 09b416ed61d69c73b6038e69cfb3aefc039d8c33
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180921
+
+    port setting works now
+
+commit 9455ee4eb92a33c5ff7a0f87be9ddc458dfa8aa4
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180921
+
+    wip on setting port
+
+commit 24ac57f85af3a9d5ae533c2fdb0ac71d5decd841
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180921
+
+    fix car physics reset
+
+commit d8c4e0b4f9c77ebdbc1df8f1f00859acd5c6eb28
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180919
+
+    removed required packages. caused problems for me
+
+commit c1109931487df5a8f6d837a16cb9c00f5e50f313
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180919
+
+    remove splash screen graphic that caused problems
+
+commit adff02223247ad3d6344b20e17bd5f4af87439e0
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180912
+
+    rl working now
+
+commit 2b3d636e710d06ac1af3216af244474b99aed3e2
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180912
+
+    integrate RL work done by Felix Yu
+
+commit a0272993db839bea800ba9500227eb97b9d5b232
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180831
+
+    wip on donkey gym
+
+commit 6e4e9976979253c19b52c4c5a9c31bc7643d6d7a
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180830
+
+    add option for synchronous time step with fixed interval
+
+commit d2fdd3890de7c9a893eef3b8570c62e4fe7c7f4a
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180712
+
+    exiting and re-entering scene a cleaner reset
+
+commit dc0ce5d44495c2c09243190daf9cfec64dd46f3b
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180712
+
+    fix stall after CarReset event
+
+commit e211be994120d666addadd8d71f9e8f72f00507b
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180710
+
+    wip on col events, cte, car reset
+
+commit 883099fd52c07f2d1947e0caaa2107534a359f1e
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180125
+
+    renamed events for clarity, consistency
+
+commit fd19f5bef7e03ccd46f0e00cada4890e39eddd60
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20180118
+
+    added sim_server and basics to run headless testing.
+
+commit b444eee990ea9d7b63447cf6634d644f859c9eb5
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171026
+
+    added fisheye to donkey camera, tinted wh to match real photos
+
+commit dbd394e146438c646e6994128ca4ca281651d3fb
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171026
+
+    added cones, tables, tires, people
+
+commit fb9bb642d2b5976e47a34d8cb1603c24160d822e
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171026
+
+    added race line as wh train path. increased max speed
+
+commit 00c47dab3a3fba16d47cbed09f288c4cb0703319
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171019
+
+    added avc to menu scene, added path
+
+commit 4b18a149993896d23da2ad3b897e3e106f57e67b
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171019
+
+    added a bunch of details
+
+commit b39f4a768c9d52ba40dcf2f76f2c8eb24301c195
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171018
+
+    railings, layout complete
+
+commit 712450cf5bdbad84c6cd2917ba223d2fe44a2a40
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171018
+
+    modeled a hay bale
+
+commit f31c3a84d421ab87b8e3ae85d745e8af558c339c
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171013
+
+    creating avc track
+
+commit 0cb4199e8343921f520588f6a4246e2306bf7bfd
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171013
+
+    added avc scene and assets
+
+commit 0f703614c8e549fdc49e858a9ea6a88686d918bd
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171012
+
+    honestly not sure what changed.
+
+commit 2386bc734e8e5be3c706a5a34e6ba7bb23024cd9
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171011
+
+    make sure steering set to default 16 deg range. and make sure steering scale set in net sim recv func.
+
+commit f9e3d8a38c3f17dad762c0493813ba86b1178c81
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171011
+
+    save and load pid. add user control of max steering
+
+commit d7863a8483bbfcb5f37312b3fd26ed002e759b80
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171010
+
+    trying to get warehouse model to train
+
+commit 3196ae97072ec9b9ece9d12e365e266fbc4d5826
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171009
+
+    fixed scale of steering output. added gui for pid control, log count.
+
+commit b68e56985b0169cf87644c2d8d8b60d6b6bd9917
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171006
+
+    fixed lighting in warehouse
+
+commit 12d5b011be8f7e0c2bb18118175e96158b1f4aeb
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171005
+
+    fixing warehouse path
+
+commit fea2c65ee6a6d760da9ac0cdf5042e7367279cf6
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171005
+
+    created menu scene. ready for v 0.1
+
+commit 93a2d712208ec4d997dcc0acae27784efa12c6fd
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171003
+
+    tweaked lighting
+
+commit 69d7b6eba69c7839127c1d5ff155023f40ab5544
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171003
+
+    added warehouse
+
+commit 2adde880ad019a9514103f18ea4653b731259f3e
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20171003
+
+    setup donkey model in main scene.
+
+commit 61c12e04a6eea3e77aa3704eac92b5fa6ca90982
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170908
+
+    note about loading models with mismatch versions
+
+commit 7e7a32d8797dca125939fe1fe755a52f71ce54dc
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170908
+
+    removed missing component references, fixed zbuffer range for overhead camera
+
+commit 3ce34a153688122c5f2c80e3db37815f70a5f0e6
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170906
+
+    added new road shader, tweaks to logger not to crash when shutting down.
+
+commit 1de90cec588da9157c3271166dd0b17d9f1ceec0
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170905
+
+    specify keras version as 2.0.8 to avoid potential problems loading pre-trained model.
+
+commit 78598bf0c7df24fd3151050e760ad155cef29e01
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170905
+
+    added default pre-trained model - highway.h5
+
+commit 41dd471caca3d07c71158f76c00af28785cb2c80
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170905
+
+    updated readme. reduced default road curvature
+
+commit d4215667a9df9599cc29ad93d084c7ca163c3630
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170905
+
+    added overhead map, regen track, next track, model crops top half of input, fps indicator
+
+commit 9f508b4ae100a501255a28755cedec8606712850
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170905
+
+    fixed scaling of stop ui panel.
+
+commit fbbddb1e7178a6fd9e940f5cb3626a9e747c149b
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170902
+
+    fixed ground material
+
+commit 2cf5c46086c8f44d65b52a37f0d58d199d858d9e
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170831
+
+    more cleanup and working towards better training
+
+commit 2268ee4863a40689e963e016440f9d16a7fe813e
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170831
+
+    cleanup
+
+commit 0d2f5bd41c5fd9bd95edf22e0dc4d600db711749
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170831
+
+    removing data and clutter
+
+commit 801a1eef3a760a424faee3e497b9eff4bb0de09e
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170831
+
+    work on re-write of training, keras 2.0, more simple code
+
+commit b422db16674a7b897b4c0bf0191890ff35ed8f9e
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170825
+
+    for some reason we lost of camera reference in the logger.
+
+commit ab3f3cd829217e2d86fa0fe8939d923a95a77ae3
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170823
+
+    added donkey model and scene
+
+commit c383dbc7abb1b2b32e384042952c977798115140
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170801
+
+    readme changes
+
+commit 22002c0f44b06f0cd2ab94da2aaa64bd155564c9
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170801
+
+    fix req list
+
+commit 7fbdd91179aa35d4c720a6ba42a6f3eea739d621
+Merge: d8eac80 b9ea694
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170801
+
+    Merge branch 'master' of github.com:tawnkramer/sdsandbox
+
+commit d8eac801fb714952a36fe22a1d0d4d7369e7b19f
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170801
+
+    trying to fix spacing
+
+commit b9ea694f7dac9298086bfe86b769f56e498c261b
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170801
+
+    updated readme
+
+commit a62d080623b0cf33be9f73e203c89b727805d180
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170801
+
+    a few more details on dependencies
+
+commit 51c3af4e4acebbecb74a9bd2a2e3cc57005473e1
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170801
+
+    little more details about using requirements for install
+
+commit 495bed01970615d6798ab39a3d4d5b833ee2345c
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170801
+
+    updated versions in readme
+
+commit 07d0adce013d255ce71ddbd7531b32eaae28293c
+Merge: 31b1d3d 74b53a4
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170801
+
+    Merge branch 'master' into socketio
+
+commit 31b1d3debf37358d8dd67ad05c46495ffb4c4542
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170801
+
+    Unity standard car need custom throttle settings. use --usc with predict_server.py for those
+
+commit 74b53a4debb2c3e2732811bb9654867a1c4834cd
+Merge: d034c16 64d068d
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170801
+
+    Merge branch 'master' of github.com:tawnkramer/sdsandbox
+
+commit d034c16ffc5f3c9f4bbacd3235365f82f5253832
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170801
+
+    work on a scene that helps train agains the Udacity simulator
+
+commit 1b8862fa18c3eaffcfc9c0e9fc9d1fea806e7016
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170801
+
+    wip on merging all network io to socketio
+
+commit 1de8d209e694bc6083a4a7cfc71965b2bbca42cd
+Merge: e805428 8796fda
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170801
+
+    Merge branch 'socketio' of github.com:tawnkramer/sdsandbox into socketio
+
+commit e805428ba6c8f7acedae3a3c2611d353d67050a5
+Merge: 953d1f4 64d068d
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170801
+
+    Merge branch 'master' of github.com:tawnkramer/sdsandbox into socketio
+
+commit 64d068d868298398e32e56ccf7f8c57cfe5bb744
+Merge: 3b83963 fce4e6d
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170714
+
+    Merge branch 'master' of github.com:tawnkramer/sdsandbox
+
+commit 3b8396363628a6e0f917bd679baf7e966dfef5c5
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170714
+
+    experiments w semantic segmentation
+
+commit 8796fdac9cf4596875f251bd973abb2e09d17e1b
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170712
+
+    added requirements file to make it easier to install python modules you need
+
+commit b4931767891b83272febb659f88fe6c1b398e643
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170712
+
+    checked things out on mac os
+
+commit 58a0b78eef6bb1d1817e4aba33b5303a1e4b74e5
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170712
+
+    added fps to predict server. wow, it's bad w socket io.
+
+commit 953d1f4b8ffbfb217da9d73c96fc8731e7782a81
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170712
+
+    experiment with using socketio instead of raw tcp sockets
+
+commit fce4e6dc1635d9c5ced8462097484a883c1058f0
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170710
+
+    improved warehouse model textures and lighting
+
+commit 3fa1ba633c2c2ca69c843868d41695051a4661d7
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170709
+
+    moved throttle control into python
+    cleaned up mon_and_predict_server to share core server class
+
+commit 3cf55f7774df5ba068cb4f99e9617b16c70834f8
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170709
+
+    fixed bug that prevented network steering to work properly
+
+commit 4040de5bcd60ff49013069b6faf12219192771d4
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170629
+
+    only take controller input from the JoyStickController object, not within the car script. Added dual cars scene, with manual control enabled for one.
+
+commit 72811a5be01a2d1d92c55e0f39bc4cd3864dfc41
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170627
+
+    clarified when and how to use manual/joystick input by creating a new script just for that purpose. the main scene now has manual controls optional. Can be added to any scene.
+
+commit c932c0e2b4647dda9a9b1bf566d7ecb23854c7e2
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170627
+
+    fixed spelling and added more comments
+
+commit a5d282e200e6a4a151353e981647ca076b14e176
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170627
+
+    handle case with models transposed even though config is different. handles older models.
+
+commit 45eff18dd849825e3ce365b50f7972cad7f685fe
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170627
+
+    add a print when done w training
+
+commit e8971ab75471d00a03358129477269263296e5d2
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170627
+
+    trained some models in python 2 and 3
+
+commit 4839668131f1649e51aeafc57c42e98b2a8e5d3b
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170626
+
+    add some comments to help clarify things
+
+commit d3eb91ec1c7159dc32c2002d7123121525133e5a
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170626
+
+    things working in python3 now with the images either transposed or not according to config.py
+
+commit 0746bcfc24cf044c9456fd132f96360a58eaa531
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170313
+
+    added lidar simulation
+
+commit afc0b32c0fe97ceb1e1ade3e467c426dd59f81d2
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170313
+
+    removed some rlearn tests
+
+commit ece03e3b72374a4e8476b31e5d39520e0887713e
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170313
+
+    added stereo cam support to logger. Thunderhill modified to ouput stereo camera.
+
+commit 98edd85db68d4a3648a281b5956cf733f5dcd158
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170227
+
+    fixed scale on thunderhill course. placed car in Thuderhill West starting point.
+
+commit a842c4802c3ae0906fbe816a1c74bf9d200874ef
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170213
+
+    allow client to control throttle. some scripts to generate path from driving.
+
+commit 482db0892b5e28f72382f3fbbf97ae740029a03e
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170206
+
+    added some menus to make Thunderhill more usable. Added a scene I'm using to train for following a paper road. Added the monitor and predict server that allow you to watch the video as it comes in from the robot.
+
+commit a48d6e42753e8eec499c3ab07454313c8f450e4a
+Merge: c37eaeb 137b83f
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170206
+
+    Merge branch 'master' of github.com:tawnkramer/sdsandbox
+
+commit c37eaebdee83cb1a18b4ecdaa4355bf7e99cdaa1
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170206
+
+    show both human an nn inputs
+
+commit 137b83f50806fca08e653ad7813e3c890ecf527a
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170206
+
+    more tweaks to Thunderhill. Semi raceworthy atm. Still needs some setup to train and drive.
+
+commit 9ec05a64730249fe17ccfc32363e3787d1e2a76f
+Merge: eebf705 dbc3c21
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170205
+
+    Merge branch 'master' of github.com:tawnkramer/sdsandbox
+
+commit eebf7052e0b92bb96d3b6df68d2131b8e002d8f2
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170205
+
+    wip on Thunderhill raceway course. Needs Lots of work smoothing roads before it's usable.
+
+commit dbc3c21c72aeeb249e8039cd7947129be39c0b12
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170131
+
+    we like the reuse address if os doesn't free it in time
+
+commit b1eaba6cb9e34b767230190a1bf4c5f264f0754b
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170130
+
+    ignore lines which don't have the correct number of fields
+
+commit 6564e88a7b9920727c35d48eee28c2c0876c6d1d
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170129
+
+    tweak to predict server so it can be launched as a sub-process
+
+commit eb1aa4738d4fe3392d2216709568a996308ec062
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170127
+
+    added a new video to discuss creating a robust training set
+
+commit 7382147b3ee51ac5b18a99cd851c73c27625a1c3
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170123
+
+    a better trained warehouse model
+
+commit ba27a01caa658f914fde605288c67027fc6b3a7a
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170123
+
+    added a new warehouse scene that might look oddly familiar to some
+
+commit 2e5fe4eaf1fba7cdba2e5095eccf5f01f8ca1475
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170120
+
+    trying to train a lane changer but not having much luck.
+
+commit dd64d7e6b6919cc1bd9a60956a1aae276465dc94
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170119
+
+    wip on some lane changing behaviors
+
+commit 356eeb2eafa57f43f6819c2407fa9d088abc27cf
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170117
+
+    added a trained model for the unity standard car.
+
+commit ef44106606351f34d0b9517200900e2a8126b9fa
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170117
+
+    small format tweaks to readme
+
+commit cee006ed94db5c0af2a04beda97a34b34aa9d71f
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170117
+
+    added a new interface class ICar in order to support importing and using different car setups - namely the Unity Standard car asset. But will aid in adding others. Also added some Standard Unity Assets - terrain textures, trees, and car.
+
+commit 59cc981fea4890021bc9b08b931fec45060a5ab8
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170115
+
+    added link to example video
+
+commit 54ca90575cf8b5aa101ffbbd84d296c123506e86
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170115
+
+    added link to getting started video
+
+commit 3cfcee83573535fe09655e679c8e9e78d18c80f8
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170115
+
+    simplified some text. fixed a few errors.
+
+commit 0622fcaf1f938e41c5f90a7a8a1e013d3b716dd9
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170114
+
+    fix spelling
+
+commit 89c6d80ac5ec0b6fc9b9b2a0853b6f3a4f8af703
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170114
+
+    few more tweaks to streamline things
+
+commit d3d60e2b555164b2648fc8b45e51ce1646ef1217
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170114
+
+    some interface buttons, more command line options for tools
+
+commit 99d01be6be23f2a83109da03e13a1e93f3a248a6
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170114
+
+    some cleanup
+
+commit c4815991f817a15f51269b09f94e6e9ae46b871c
+Author: Tawn Kramer <tawnkramer@gmail.com>
+Date:   20170114
+
+    initial commit

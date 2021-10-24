@@ -1,0 +1,148 @@
+commit e6e182e70f27a800586718bcbc10a11e022ea490
+Author: SudKul <48475411+SudKul@users.noreply.github.com>
+Date:   20211021
+
+    Create CODEOWNERS
+
+commit 522bd7ad6784ad5de1f12f593e00c7d1d79ec34d
+Author: Michael Virgo <michael.v@udacity.com>
+Date:   20190111
+
+    docs: Change Term 1 V2 sim links to AWS
+    
+    Users in China were not able to access the Term 1 sim links on Cloudfront, so moved the latest version onto AWS as well.
+
+commit 75bb9dc24a40e426760ee8072de8ad3f17e0cc31
+Author: Michael Virgo <michael.v@udacity.com>
+Date:   20190111
+
+    Docs: Add info for non-Term 1 sims
+    
+    Clarified that previous links were only Term 1 sims, added links to the releases page and related branches for Term 2 and Term 3, and added link to Capstone releases page for that sim.
+
+commit bdcd588990df2db4706e772cd45d6e013631a2f2
+Merge: e63530ef 814587d7
+Author: Michael Virgo <mvirgs44@gmail.com>
+Date:   20180209
+
+    Merge pull request #48 from sshiv/patch-1
+    
+    Fixing typo in README.md
+
+commit e63530ef828619949bc5adc3e155421f92320172
+Author: Andrew Bauman <baumanab@gmail.com>
+Date:   20171117
+
+    add info/workarounds for some known simulator issues
+
+commit 814587d778c921f469e1a050a5f984e3ad8acb94
+Author: sshiv <sshiv_may15@yahoo.com>
+Date:   20170801
+
+    Fixing typo in README.md
+    
+    It should executable or executable file.
+
+commit deaf07778f7ca8c2c792ba0c5d9af05047049170
+Merge: 216f6837 059a9d31
+Author: Aaron Brown <aaronwbrown@msn.com>
+Date:   20170222
+
+    Merge pull request #13 from udacity/extras
+    
+    Extras
+
+commit 059a9d313ddb8e88449702101ec21dd63c3bc393
+Merge: 3c52bcd4 216f6837
+Author: Aaron Brown <aaronwbrown@msn.com>
+Date:   20170222
+
+    Merge branch 'master' into extras
+
+commit 3c52bcd4f6c7b36c9218b4f7b95abd6c45e1f791
+Author: Aaron Brown <aaronwbrown@msn.com>
+Date:   20170222
+
+    feat: trimmed some of the map more where grass was poking through the road
+
+commit 216f68374bade7d4f79622760157485701ee9d7d
+Merge: 22c10d05 f2096258
+Author: Aaron Brown <aaronwbrown@msn.com>
+Date:   20170216
+
+    Merge pull request #9 from rafiquemt/gamepad-horizontal-fix
+    
+    fix joystick steering bug
+
+commit a5da1c8c6ce71582a64112c32db35cd84d179128
+Author: Aaron Brown <aaronwbrown@msn.com>
+Date:   20170213
+
+    feat: adding back the joy stick control option
+
+commit 32c37942664d2a5f98e3a0951c3d40bf0f55cab6
+Author: Aaron Brown <aaronwbrown@msn.com>
+Date:   20170213
+
+    feat: Making it much easier to drive the car off and on the road edges by
+    lowering the track/bridge and lowering the dirt by the road
+
+commit f2096258314b8023054ff53d9202dd5c769e40d3
+Author: Tariq Rafique <mrafique@salesforce.com>
+Date:   20170212
+
+    fix joystick steering bug
+
+commit 22c10d05a79828f82e46cabeb919a013ebd42475
+Author: Aaron Brown <aaronwbrown@msn.com>
+Date:   20170211
+
+    Create License
+
+commit fe3812afe97f6e094d8fbc1a41d1d953c38ddb9a
+Author: Aaron Brown <aaronwbrown@msn.com>
+Date:   20170210
+
+    Adding the build file links
+
+commit 8e80c65321e314e73e22402a31dafc65cea669a8
+Author: Oliver Cameron <olivercameron@icloud.com>
+Date:   20170208
+
+    Update README.md
+
+commit e39950fcd109ed8adfd75b682a1ec2cbbc12daac
+Author: Oliver Cameron <olivercameron@icloud.com>
+Date:   20170208
+
+    Update README.md
+
+commit d600cc60add024b6cb0e4f77f675a1fe668ff53a
+Author: Aaron Brown <aaronwbrown@msn.com>
+Date:   20170208
+
+    updating instructions
+
+commit 8148e50097b7c8921e4f06f024e8084de0bfb981
+Author: Aaron Brown <aaronwbrown@msn.com>
+Date:   20170207
+
+    Correcting README font sizes
+
+commit fe4ac192ae0ee8198475e342aa045f345703f08f
+Author: Aaron Brown <aaronwbrown@msn.com>
+Date:   20170207
+
+    add details about Git LFS in README
+
+commit 43c30490fd1230e387397139bc01432f020860ff
+Author: Aaron Brown <aaronwbrown@msn.com>
+Date:   20170207
+
+    fix: deleting accidental build data commit
+
+commit 5f6e479fb4e9c7c7ea639b808c5ec487f0a446bc
+Author: Aaron Brown <aaronwbrown@msn.com>
+Date:   20170207
+
+    First commit for new open source sim
